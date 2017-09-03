@@ -1,0 +1,29 @@
+{ 'version': 0, 'roots': [
+  { 'name': '/home/teemperor/blender/blender/extern/Eigen3/', 'type': 'directory',
+    'contents':
+      [{ 'name': 'module.modulemap', 'type': 'file',
+        'external-contents': '/home/teemperor/blender/build/ClangModules-2.modulemap'
+      }]
+  }
+,
+  { 'name': '/home/teemperor/blender/blender/extern/glog/src/', 'type': 'directory',
+    'contents':
+      [{ 'name': 'module.modulemap', 'type': 'file',
+        'external-contents': '/home/teemperor/blender/build/ClangModules-3.modulemap'
+      }]
+  }
+,
+  { 'name': '/usr/include', 'type': 'directory',
+    'contents':
+      [{ 'name': 'module.modulemap', 'type': 'file',
+        'external-contents': '/home/teemperor/blender/build/ClangModules-5.modulemap'
+      }]
+  }
+,
+  { 'name': '/usr/lib64/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1', 'type': 'directory',
+    'contents':
+      [{ 'name': 'module.modulemap', 'type': 'file',
+        'external-contents': '/home/teemperor/blender/build/ClangModules-6.modulemap'
+      }]
+  }
+]}
